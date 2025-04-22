@@ -1,0 +1,66 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagina-insta {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+  .encabezado-insta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .info-usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .info-usuario i {
+    font-size: 24px;
+  }
+  
+  .menu i {
+    font-size: 20px;
+  }
+  
+  .imagen {
+    width: 100%;
+    height: auto;
+  }
+  
+  .acciones {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 22px;
+  }
+  
+  .izquierda i,
+  .derecha i {
+    margin-right: 10px;
+  }
+  
+  .likes {
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .descripcion {
+    padding: 0 10px 10px;
+    font-size: 13px;
+    color: #333;
+  }
+
